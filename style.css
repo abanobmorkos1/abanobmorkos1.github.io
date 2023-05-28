@@ -1,0 +1,45 @@
+#search{
+    background-color: #160440;
+    width: 486px;
+    height: 344px;
+    border: 10px ;
+    border-radius: 40px;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+   
+}
+/* search             box */
+
+/* title */
+.title{
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Creepster', cursive;
+    color:#160440;
+}
+/* search h1 */
+h1{
+    font-family: 'Nabla', cursive;
+}
+/* search input */
+#search .search{
+    background-color: #ffffff;
+    padding: 5px;
+}
+/* search button */
+#search .button{
+    color: yellow;
+    background-color:#160440;
+    padding: 5px;
+}
+/* instruction */
+.instr{
+    font-family: 'Creepster', cursive;
+    font-size: large;
+    text-align: left;
+    color: #78a507;
+    margin-left: 5px;
+}
+
+/* output             box */
