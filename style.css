@@ -34,10 +34,10 @@ span{
 }
 /* Grid layout */
 #results {
-    display: grid;
-    grid-template-columns: repeat(5, 3fr);
-    grid-template-rows: auto;
-    gap: 49px 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     
   }
 /* next pg previous pg */
@@ -67,4 +67,9 @@ a {
   }
   #arrow{
     text-align: center;
+  }
+  @media screen and (max-width: 500px) {
+    #results {
+      background-color: lightgreen;
+    }
   }
