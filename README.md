@@ -1,5 +1,5 @@
 # What's the Rick and Morty portal?
-The Rick and Morty portal is a search engine that helps users explore more than 800 Characters with their attributes and what eposides they been featured on !
+The Rick and Morty portal is a showcase that helps users explore more than 800 Characters with their attributes and more !
 
 # Technologies used:
 * HTML 
@@ -10,8 +10,9 @@ The Rick and Morty portal is a search engine that helps users explore more than 
 
 # Mockup:
 
-![Desktop - 1 (1)](https://github.com/abanobmorkos1/Unit-Project1/assets/125706329/5a19340d-45a2-4a17-ba83-a35db2a744c7)
+![Frame 1 (3)](https://github.com/abanobmorkos1/abanobmorkos1.github.io/assets/125706329/29df0335-a782-4629-8eae-f0df031b3c1d)
+
 
 # Getting started:
 
-Click here to enter the Portal !
+Click [here] (https://abanobmorkos1-github-io.vercel.app/)to enter the Portal !

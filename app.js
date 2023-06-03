@@ -30,8 +30,6 @@ fetch(`https://rickandmortyapi.com/api/character/`)
         });
     } 
     
-
-
     // defining the count to use later on as a counter value to go through the pages
     let count = 1;
 

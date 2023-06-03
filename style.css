@@ -14,10 +14,10 @@ h2{
     color:#56d258;
     text-align: center;
     font-family: 'Creepster', cursive;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Space Mono', monospace;
-font-family: 'Unica One', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Unica One', cursive;
 }
 .card{
     
@@ -41,7 +41,7 @@ span{
     color: aqua;
     text-align: center;  
 }
-/* Grid layout */
+/* parent div of cards */
 #results {
     display: flex;
     flex-wrap: wrap;
@@ -56,18 +56,21 @@ span{
     }
   }
 
-form{
+/* form */
+  form{
   padding: 15px;
   display: flex;
   justify-content: center;
   gap: 15px;
 }
+/* prev button */
 #prv{
  color: #099662; 
  background-color: rgb(22, 33, 39);
  padding: 15px;
  font-family: 'Creepster', cursive;
 }
+/* nxt button  */
 #nxt {
   color: #099662;
   background-color: rgb(22, 33, 39);
@@ -76,11 +79,12 @@ form{
   background-color: gre;
 }
 
+/* instructions */
 #inst {
   justify-content: left;
   display: flex;
   margin-top: 50px;
   margin-left: 50px;
   margin-bottom: 50px;
-  color: rgb(24, 255, 178);
+  color: bisque;
 }
