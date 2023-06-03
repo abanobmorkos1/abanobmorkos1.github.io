@@ -1,9 +1,10 @@
 .title{
     padding: 5px;
     font-family: 'Creepster', cursive;
-    color:#099662;
+    color:#249068;
     display: flex;
     justify-content: center;
+    text-shadow: rgb(255, 255, 255) 1px 0 1px;
    
 }
 body{
@@ -20,18 +21,18 @@ font-family: 'Unica One', cursive;
 }
 .card{
     
-    border-radius: 5px;
+    border-radius: 10px;
     border: 5px salmon solid;
     display: inline-table;
     border-radius: 5px;
     border: 5px rgb(255, 240, 238) solid;
     display: inline-table;
     width: 300px;
-    background-color: rgb(121, 122, 62);
+    background-color: rgb(39, 58, 36);
 }
 
 h3{
-    color: #56d258;
+    color:gainsboro ;
     font-family: 'Creepster', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -48,6 +49,7 @@ span{
     justify-content: center;
     
   }
+  /* media qurey */
   @media screen and (max-width: 500px) {
     #results {
       background-color: rgb(72, 72, 72);
@@ -55,9 +57,30 @@ span{
   }
 
 form{
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: center;
-  padding: 20px;
-  justify-content: space-evenly;
+  gap: 15px;
+}
+#prv{
+ color: #099662; 
+ background-color: rgb(22, 33, 39);
+ padding: 15px;
+ font-family: 'Creepster', cursive;
+}
+#nxt {
+  color: #099662;
+  background-color: rgb(22, 33, 39);
+  padding: 15px;
+  font-family: 'Creepster', cursive;
+  background-color: gre;
+}
+
+#inst {
+  justify-content: left;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  color: rgb(24, 255, 178);
 }
