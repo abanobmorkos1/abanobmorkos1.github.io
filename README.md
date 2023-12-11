@@ -15,4 +15,4 @@ The Rick and Morty portal is a showcase that helps users explore more than 800 C
 
 # Getting started:
 
-Click [here] (https://abanobmorkos1-github-io.vercel.app/)to enter the Portal !
+Click [here](https://abanobmorkos1-github-io.vercel.app/) to enter the Portal !
