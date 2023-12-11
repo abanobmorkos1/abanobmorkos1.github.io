@@ -19,17 +19,7 @@ h2{
     font-family: 'Space Mono', monospace;
     font-family: 'Unica One', cursive;
 }
-.card{
-    
-    border-radius: 10px;
-    border: 5px salmon solid;
-    display: inline-table;
-    border-radius: 5px;
-    border: 5px rgb(255, 240, 238) solid;
-    display: inline-table;
-    width: 300px;
-    background-color: rgb(39, 58, 36);
-}
+
 
 h3{
     color:gainsboro ;
@@ -45,32 +35,33 @@ span{
 #results {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 45px;
     justify-content: center;
-    
   }
   /* media qurey */
   @media screen and (max-width: 500px) {
     #results {
-      background-color: rgb(72, 72, 72);
+      background-color: rgb(0, 0, 0);
     }
   }
 
-/* form */
+/* form #nxts */
   form{
   padding: 15px;
   display: flex;
   justify-content: center;
   gap: 15px;
 }
-/* prev button */
+/* prev #nxt */
+
 #prv{
  color: #099662; 
  background-color: rgb(22, 33, 39);
  padding: 15px;
  font-family: 'Creepster', cursive;
-}
-/* nxt button  */
+} 
+
+/* nxt #nxt  */
 #nxt {
   color: #099662;
   background-color: rgb(22, 33, 39);
@@ -78,13 +69,46 @@ span{
   font-family: 'Creepster', cursive;
   background-color: gre;
 }
-
 /* instructions */
 #inst {
-  justify-content: left;
+  justify-content: center;
   display: flex;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 50px;
   color: bisque;
+}
+
+img{
+  border-radius: 50px;
+  padding:10px;
+}
+
+#characterForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+}
+ .next {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #57cc99;
+}
+next:hover {
+  background-color: #80ed99;
+}
+next:active {
+  top: 2px;
 }

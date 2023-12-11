@@ -5,32 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/android-chrome-192x192.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Oswald:wght@200&family=Roboto:wght@300&family=Space+Mono:wght@700&family=Unica+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Oswald:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="./app.js" defer></script>
-    <title>Rick AND Morty portal</title>
+    <title>Rick And Morty Portal</title>
 </head>
 <body>
-    
     <h1 class="title">Rick and morty portal</h1>
+>
     
     <h2 id="inst">Prepare for a mind-bending adventure across dimensions with Rick and Morty!</h2>
     
+    <div id="search">
+        <form id="characterForm">
+            <label for="characterName">Character Portal:</label>
+            <input type="text" id= "name"  placeholder="Name" />
+            <br>
+            <input type="text" id="status"  placeholder="Status dead or alive?">
+            <br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+
+    
     <div id="results">
-        
+
     </div>
     
-     <form>
-        <input id="prv" type='submit' value='prev'/>
-        <input id="nxt" type='submit' value='next'/>
+     <form id="button">
+        <input id="prev" type='submit' value='prev'/>
+        <input id="next" type='submit' value='next'/>
      </form>
-      
-      
+       
 
 
 </body>
